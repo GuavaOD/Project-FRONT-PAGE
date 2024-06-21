@@ -26,11 +26,14 @@ a{
     display: flex;
     gap: 40px;
     margin-top: 10px;
+    border-left:solid purple;
+    border-right:solid purple;
+    padding: 0px 10px;
 }
 
 .logo{
     position:fixed;
-    height: 30px;
+    height: 32px;
     width: 35px;
     margin-top: 10px;
 }
@@ -76,4 +79,12 @@ a{
 
 .button:focus{
     background-color:rgb(134, 134, 252);
+}
+
+.secondcontainer{
+    background-color: lightgray;
+}
+
+.middlecontainer{
+    margin: 0px 150px;
 }
