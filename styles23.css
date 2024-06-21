@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containerinit{
+    background-color: rgb(134, 134, 252);
+}
+
+.medcontainer{
+    margin: 0px 150px;
+}
+
+.smallcontainer{
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    font-size: 30px;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.logo{
+    position:fixed;
+    height: 30px;
+    width: 35px;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+.blabla{
+    line-height: 25px;
+}
+
+.enhanced{
+    width: 700px;
+    height: auto;
+}
+
+.button{
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    border-color: none;
+    padding: 10px;
+}
+
+.button:hover{
+    color:red;
+}
+
+.button:focus{
+    background-color:rgb(134, 134, 252);
+}
