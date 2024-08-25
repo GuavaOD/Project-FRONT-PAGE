@@ -59,8 +59,10 @@ a{
 }
 
 .enhanced{
+    display: flex;
     width: 700px;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .button{
@@ -88,3 +90,26 @@ a{
 .middlecontainer{
     margin: 0px 150px;
 }
+
+.xtraInf{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imginfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+.images{
+    display: flex;
+    width: 510px;
+    height: auto;
+    flex-wrap: wrap;
+    }
